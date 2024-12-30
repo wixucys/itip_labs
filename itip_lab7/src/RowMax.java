@@ -1,6 +1,4 @@
-import java.util.Arrays;
-
-class RowMax implements Runnable {
+public class RowMax implements Runnable {
     private int[] row;
     private int[] maxOfRow; // хранит максимальные значения в каждой строке
     private int rowIndex;
